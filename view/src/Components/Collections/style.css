@@ -1,0 +1,14 @@
+.collec-container{
+    display: flex;
+    .collect{
+        img{
+            width: 350px;
+            height: 460px;
+            position: relative;
+        }
+
+        .text{
+            
+        }
+    }
+}

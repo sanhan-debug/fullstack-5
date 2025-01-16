@@ -1,0 +1,33 @@
+.container2 {
+  background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp");
+  height: 90vh;
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  width: 300px;
+  right: 30%;
+  top: 30%;
+
+  h1{
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  p{
+    font-size: 19px;
+  }
+
+  a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9f9ff;
+    background-color: #7971ea;
+    border: 1px;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    width: 65px;
+    height: 15px;
+    text-decoration: none;
+  }
+}
