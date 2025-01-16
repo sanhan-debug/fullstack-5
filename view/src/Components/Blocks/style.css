@@ -1,9 +1,14 @@
 .container-blocks {
-    width: 100%;
-    margin-left: 125px;
+  width: 100%;
+  height: 30vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
   .site-blocks {
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
+
     .block {
       .block-icon {
         font-size: 45px;
@@ -14,4 +19,9 @@
       margin: 0px auto;
     }
   }
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -2,11 +2,12 @@ import React from "react";
 import "../Collections/style.css";
 
 function Collections() {
+
   return (
     <>
       <div className="collec-container">
         <div className="collect">
-          <img
+          <img className="collect-img"
             src="https://preview.colorlib.com/theme/shoppers/images/women.jpg"
             alt=""
           />
@@ -16,7 +17,7 @@ function Collections() {
           </div>
         </div>
         <div className="collect">
-          <img
+          <img className="collect-img"
             src="https://preview.colorlib.com/theme/shoppers/images/men.jpg"
             alt=""
           />
@@ -26,7 +27,7 @@ function Collections() {
           </div>
         </div>
         <div className="collect">
-          <img
+          <img className="collect-img"
             src="https://preview.colorlib.com/theme/shoppers/images/children.jpg"
             alt=""
           />

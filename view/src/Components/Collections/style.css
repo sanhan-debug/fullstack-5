@@ -1,14 +1,31 @@
-.collec-container{
-    display: flex;
-    .collect{
-        img{
-            width: 350px;
-            height: 460px;
-            position: relative;
-        }
-
-        .text{
-            
-        }
+.collec-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .collect {
+    
+    margin: 0px auto;
+    position: relative;
+    .collect-img {
+      width: 350px;
+      height: 460px;
+      
     }
+    img{
+        filter:brightness(0.7);
+      }
+
+    .text {
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      color: white;
+      h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    }
+  }
 }

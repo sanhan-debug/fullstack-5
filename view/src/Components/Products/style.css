@@ -1,0 +1,41 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  height: 600px;
+
+  .card {
+    width: 347px;
+    box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background: #fff;
+    img {
+      height: 250px;
+      width: 347px;
+    }
+
+    .card-text {
+      background: #fff;
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      span {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.arrow{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
